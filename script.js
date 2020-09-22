@@ -84,6 +84,8 @@ var userLength = parseInt(prompt("How many characters should the password have?"
     char_pool.concat(lowerCase);
    }
    console.log (password);
+    return password;
   }
 
+ 
 
